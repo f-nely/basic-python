@@ -1,0 +1,36 @@
+nomes_paises = ['Brasil', 'Argentina', 'China', 'Canadá', 'Japão']
+
+print(nomes_paises)
+print(nomes_paises[0])
+print(f'Tamanho da lista: {len(nomes_paises)}')
+print(f'País: {nomes_paises[4]}')
+print(f'País: {nomes_paises[-1]}')
+
+nomes_paises[4] = 'Colômbia'
+print(nomes_paises)
+print(f'País: {nomes_paises[4]}')
+print(nomes_paises)
+print(nomes_paises[1:3])
+print(nomes_paises[1:-1])
+print(nomes_paises[2:])
+print(nomes_paises[:3])
+print(nomes_paises[::-1])
+print(nomes_paises[:])
+print(nomes_paises[::2])
+print('Brasil' in nomes_paises)
+print('Canadá' not in nomes_paises)
+
+lista_capitais = []
+print('---------- Lista Capitais ----------')
+lista_capitais.append('Brasília')
+lista_capitais.append('Buenos Aires')
+lista_capitais.append('Pequim')
+lista_capitais.append('Bogotá')
+print(lista_capitais)
+lista_capitais.insert(2, 'Paris')
+print(lista_capitais)
+lista_capitais.remove('Buenos Aires')
+print(lista_capitais)
+removido = lista_capitais.pop(2)
+print(removido)
+print(lista_capitais)
